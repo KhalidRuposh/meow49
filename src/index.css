@@ -1,0 +1,276 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #fafaf7;
+  --color-mist: #f1efe8;
+  --color-ink: #111111;
+  --color-smoke: #6f6f6a;
+  --color-accent: #e30613;
+
+  --font-sans: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "Space Mono", "Courier New", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* retro print details ------------------------------------------------ */
+
+/* crosshair registration mark */
+.reg-mark::before,
+.reg-mark::after {
+  content: "";
+  position: absolute;
+  background: var(--color-ink);
+}
+.reg-mark::before {
+  width: 13px;
+  height: 1px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.reg-mark::after {
+  width: 1px;
+  height: 13px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* arrow link: red underline slides in */
+.link-slide {
+  position: relative;
+}
+.link-slide::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+  background: var(--color-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+.link-slide:hover::after {
+  transform: scaleX(1);
+}
+
+/* arrow nudges right on hover */
+.arrow-nudge > span:last-child {
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+.arrow-nudge:hover > span:last-child {
+  transform: translateX(5px);
+}
+
+/* motion: custom cursor --------------------------------------------- */
+
+/* SVG dot fallback — visible before JS mounts the ring */
+html.custom-cursor {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Crect x='9' y='9' width='2' height='2' rx='1' fill='%23111'/%3E%3C/svg%3E") 10 10, auto;
+}
+html.custom-cursor a,
+html.custom-cursor button,
+html.custom-cursor [role="button"] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Crect x='8' y='8' width='4' height='4' rx='2' fill='%23e30613'/%3E%3C/svg%3E") 10 10, pointer;
+}
+
+/* JS-driven dot + ring */
+.cursor-dot-el,
+.cursor-ring-el {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  will-change: transform, opacity;
+  z-index: 100;
+  transition: opacity 0.25s ease;
+}
+
+/* center dot — small ink square with rounded corners, retro feel */
+.cursor-dot-el {
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: var(--color-ink);
+  mix-blend-mode: difference;
+  transition: opacity 0.25s ease, transform 0.2s ease,
+    background-color 0.25s ease, mix-blend-mode 0s;
+}
+.cursor-dot-el.cursor-dot-hover {
+  transform: translate(0, 0) scale(0.5);
+  mix-blend-mode: normal;
+  background: var(--color-accent);
+}
+
+/* trailing outline ring — lags behind like loose type */
+.cursor-ring-el {
+  z-index: 99;
+  width: 38px;
+  height: 38px;
+  margin: -19px 0 0 -19px;
+  border: 1.5px solid var(--color-ink);
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  transition: opacity 0.25s ease, width 0.25s ease,
+    height 0.25s ease, margin 0.25s ease, border-color 0.25s ease,
+    background-color 0.25s ease, mix-blend-mode 0s;
+}
+.cursor-ring-el.cursor-ring-hover {
+  width: 56px;
+  height: 56px;
+  margin: -28px 0 0 -28px;
+  border-color: var(--color-accent);
+  mix-blend-mode: normal;
+  background: color-mix(in srgb, var(--color-accent) 10%, transparent);
+}
+
+/* motion: ticker ----------------------------------------------------- */
+
+.ticker-track {
+  animation: ticker 30s linear infinite;
+}
+.ticker:hover .ticker-track {
+  animation-play-state: paused;
+}
+@keyframes ticker {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* motion: scroll reveal ---------------------------------------------- */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-shown {
+  opacity: 1;
+  transform: none;
+}
+
+/* motion: hero entrance ---------------------------------------------- */
+
+.hero-mask {
+  display: block;
+  overflow: hidden;
+}
+.hero-line {
+  display: inline-flex;
+  align-items: flex-end;
+  transform: translateY(112%);
+  animation: rise-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.hero-meta {
+  opacity: 0;
+  animation: fade-up 0.6s ease 0.45s forwards;
+}
+.hero-cta {
+  opacity: 0;
+  animation: fade-up 0.6s ease 0.6s forwards;
+}
+.hero-stamp {
+  transform: scale(1.7);
+  opacity: 0;
+  animation: stamp-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) 0.55s forwards;
+}
+@keyframes rise-in {
+  to {
+    transform: none;
+  }
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes stamp-in {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* motion: blinking block cursor --------------------------------------- */
+
+.blink {
+  animation: blink 1.1s steps(1) infinite;
+}
+@keyframes blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* motion: misprint hover on figures ----------------------------------- */
+
+.figure-frame {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.group:hover .figure-frame {
+  transform: translate(-3px, -3px);
+  box-shadow: 3px 3px 0 var(--color-ink);
+}
+
+/* motion: reading progress bar ---------------------------------------- */
+
+.progress-bar {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: var(--color-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  will-change: transform;
+}
+
+/* motion: accessibility ----------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .ticker-track {
+    animation: none;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+  .blink {
+    animation: none;
+  }
+}
