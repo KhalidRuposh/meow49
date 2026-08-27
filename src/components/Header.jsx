@@ -43,7 +43,7 @@ export default function Header() {
           className="flex items-center gap-2 border-r border-ink px-4 py-3 sm:px-6"
         >
           <img
-            src="/logo.png"
+            src="https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815568/portfolio/portfolio/logo.png"
             alt="Khalid"
             className="h-7 w-7 object-contain"
           />

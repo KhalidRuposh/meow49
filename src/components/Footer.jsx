@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="border-t-2 border-ink">
       <div className="mx-auto max-w-[1400px] px-4 py-14 sm:px-6">
         <img
-          src="/logo.png"
+          src="https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815568/portfolio/portfolio/logo.png"
           alt="Khalid"
           className="mb-8 h-12 w-12 object-contain"
         />
