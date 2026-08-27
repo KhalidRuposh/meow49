@@ -54,9 +54,10 @@ export default function Home() {
 
         <div className="hero-cta mt-10 flex flex-col justify-between gap-8 md:flex-row md:items-end">
           <p className="max-w-md text-base leading-relaxed sm:text-lg">
-            I&apos;m <strong>Khalid</strong> — I design identities, posters and
-            printed matter with a fondness for grids, ink and the occasional
-            rubber stamp. Less, but better; old, but alive.
+            I&apos;m <strong>Khalid</strong> — a graphic designer building brands
+            that are calm, confident and made to last. I shape identities,
+            packaging and the social presence that carries them, from the grid
+            out to the feed.
           </p>
           <div className="flex flex-wrap items-center gap-6">
             <Link
@@ -112,16 +113,16 @@ export default function Home() {
               <Figure variant={2} src="https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787814979/portfolio/portfolio/about-portrait.jpg" label="The designer, fig. 01" className="max-w-sm" />
             </div>
             <p className="mt-0 max-w-xl leading-relaxed md:mt-8">
-              Seven years of making things that get printed, stuck, stamped and
-              read. I grew up surrounded by letterpress tickets, film posters and
-              my uncle&apos;s typesetting catalogue — and never quite got over it.
-              Today I work with studios and small businesses who want design that
-              is calm, confident and a little bit old-fashioned on purpose.
+              I&apos;m Khalid, a graphic designer focused on brand identity and the
+              systems behind it. For seven years I&apos;ve helped studios and small
+              businesses turn a name into a mark, a mark into a voice, and that
+              voice into everything from a business card to a social feed.
             </p>
             <p className="mt-4 max-w-xl leading-relaxed">
-              The method is unglamorous: paper first, one typeface, one grid,
-              honest constraints. If a layout survives being printed in one
-              colour on cheap paper, it will survive anything.
+              Today a brand lives as much on a screen as on paper, so the work
+              covers both — the printed object and the social surface, from posts
+              and templates to a visual language that still holds up in a thumbnail.
+              Find me on Instagram, Behance and LinkedIn for the day-to-day.
             </p>
             <a
               href="/cv.pdf"
