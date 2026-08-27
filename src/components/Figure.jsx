@@ -1,11 +1,19 @@
 // Deterministic Swiss-style placeholder artwork.
 // Replace with real project images when you have them.
 
-export default function Figure({ variant = 0, label, className = '' }) {
+export default function Figure({ variant = 0, label, src, className = '' }) {
   const v = variant % 6
   return (
     <figure className={className}>
       <div className="figure-frame border border-ink bg-mist">
+        {src ? (
+          <img
+            src={src}
+            alt={label || 'Project image'}
+            loading="lazy"
+            className="block aspect-[4/3] w-full object-cover"
+          />
+        ) : (
         <svg
           viewBox="0 0 400 300"
           className="block aspect-[4/3] w-full"
@@ -77,6 +85,7 @@ export default function Figure({ variant = 0, label, className = '' }) {
             </g>
           )}
         </svg>
+        )}
       </div>
       {label && (
         <figcaption className="mt-2 flex justify-between font-mono text-[10px] tracking-[0.15em] text-smoke uppercase">

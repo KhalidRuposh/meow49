@@ -64,7 +64,7 @@ export default function WorkDetail() {
       </Reveal>
 
       <Reveal className="mt-12 grid gap-10 lg:grid-cols-[1.4fr_1fr]">
-        <Figure variant={work.figure} label={`${work.title} — primary`} />
+        <Figure variant={work.figure} src={work.images?.[0]} label={`${work.title} — primary`} />
         <div>
           <h2 className="font-mono text-[11px] tracking-[0.15em] text-smoke uppercase">
             Overview
@@ -77,6 +77,7 @@ export default function WorkDetail() {
         <Reveal key={section.heading} className="mt-16 grid gap-8 lg:grid-cols-2">
           <Figure
             variant={(work.figure + i + 1) % 6}
+            src={work.images?.[(i + 1) % (work.images?.length || 1)]}
             label={`${work.title} — fig. 0${i + 1}`}
           />
           <div className="lg:pt-4">

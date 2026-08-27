@@ -7,6 +7,7 @@ export default function WorkCard({ work, index }) {
     <Link to={`/works/${work.id}`} className="group block">
       <Figure
         variant={work.figure}
+        src={work.images?.[0]}
         label={`${work.category} — ${work.year}`}
         className="transition-colors"
       />

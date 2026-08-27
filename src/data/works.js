@@ -14,6 +14,11 @@ export const works = [
     role: 'Identity, Packaging',
     deliverables: 'Logo, Packaging, Signage, Stationery',
     figure: 0,
+    images: [
+      '/images/rilo-coffee-1.jpg',
+      '/images/rilo-coffee-2.jpg',
+      '/images/rilo-coffee-3.jpg',
+    ],
     featured: true,
     overview:
       'A small roastery with a big love for the 1970s. Rilo wanted shelves that feel like a well-read pantry — warm, honest, unmistakably printed. We built the identity around a single stamp-like wordmark and a strict two-colour print system that survives cheap paper and busy supermarkets alike.',
@@ -37,6 +42,11 @@ export const works = [
     role: 'Art Direction, Layout',
     deliverables: 'Masthead, Grid System, 12 Issues',
     figure: 1,
+    images: [
+      '/images/papier-monthly-1.jpg',
+      '/images/papier-monthly-2.jpg',
+      '/images/papier-monthly-3.jpg',
+    ],
     featured: true,
     overview:
       'An independent magazine about paper, print and the people who still love both. Twelve issues, one unforgiving baseline grid, zero decorative flourishes. The design leans on hierarchy and rhythm — the way old annual reports used to before they became brochures.',
@@ -60,6 +70,11 @@ export const works = [
     role: 'Poster Series',
     deliverables: '18 Posters, Wayfinding',
     figure: 2,
+    images: [
+      '/images/stadt-theatre-1.jpg',
+      '/images/stadt-theatre-2.jpg',
+      '/images/stadt-theatre-3.jpg',
+    ],
     featured: true,
     overview:
       'Eighteen plays, eighteen posters, one system. Each poster is a typographic experiment held together by a shared border, a shared red and a shared refusal to use a photograph of actors pretending to laugh.',
@@ -83,6 +98,11 @@ export const works = [
     role: 'Sleeve Design, Identity',
     deliverables: '12" Sleeves, Labels, Catalogue',
     figure: 3,
+    images: [
+      '/images/nordwind-records-1.jpg',
+      '/images/nordwind-records-2.jpg',
+      '/images/nordwind-records-3.jpg',
+    ],
     featured: true,
     overview:
       'A reissue label for forgotten electronic music from the 1980s. The sleeves borrow the visual language of library records — sober, systematic, faintly bureaucratic — because the music deserves to look like a document, not a fashion.',
@@ -106,6 +126,11 @@ export const works = [
     role: 'Type Design, Website',
     deliverables: 'Typeface (8 styles), Specimen Site',
     figure: 4,
+    images: [
+      '/images/grotesk-foundry-1.jpg',
+      '/images/grotesk-foundry-2.jpg',
+      '/images/grotesk-foundry-3.jpg',
+    ],
     featured: false,
     overview:
       'A late-1960s-flavoured grotesque in eight styles, drawn as a house typeface and released to the public. Tight apertures, flat shoulders, and a stubborn refusal of optical compensation at the extremes.',
@@ -129,6 +154,11 @@ export const works = [
     role: 'Exhibition Identity',
     deliverables: 'Wayfinding, Catalogue, Merch',
     figure: 5,
+    images: [
+      '/images/helsinki-school-1.jpg',
+      '/images/helsinki-school-2.jpg',
+      '/images/helsinki-school-3.jpg',
+    ],
     featured: false,
     overview:
       'An exhibition on the history of design education. The identity treats the whole museum as one overprinted textbook: room numbers like chapter numbers, wall texts like footnotes, and a red pencil line guiding visitors from cover to colophon.',
