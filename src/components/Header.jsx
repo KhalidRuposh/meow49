@@ -42,7 +42,11 @@ export default function Header() {
           to="/"
           className="flex items-center gap-2 border-r border-ink px-4 py-3 sm:px-6"
         >
-          <span className="inline-block h-3 w-3 bg-accent" aria-hidden="true" />
+          <img
+            src="/logo.png"
+            alt="Khalid"
+            className="h-7 w-7 object-contain"
+          />
           <span className="text-lg font-black tracking-tight uppercase">
             Khalid
           </span>
