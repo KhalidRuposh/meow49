@@ -1,14 +1,14 @@
 // ─────────────────────────────────────────────────────────────
 //  YOUR WORK — edit this file to add / remove projects.
-//  `figure` picks the placeholder artwork style (0–5) until you
-//  drop in real images.
+//  `images` are your project photos (Cloudinary URLs). Swap them
+//  for real work when you have it. `figure` is the fallback style.
 // ─────────────────────────────────────────────────────────────
 
 export const works = [
   {
-    id: 'rilo-coffee',
-    title: 'Rilo Coffee Roasters',
-    client: 'Rilo Coffee, Lahore',
+    id: 'marrow-coffee',
+    title: 'Marrow Coffee Co.',
+    client: 'Marrow Coffee, Lisbon',
     category: 'Branding',
     year: '2025',
     role: 'Identity, Packaging',
@@ -21,22 +21,22 @@ export const works = [
     ],
     featured: true,
     overview:
-      'A small roastery with a big love for the 1970s. Rilo wanted shelves that feel like a well-read pantry — warm, honest, unmistakably printed. We built the identity around a single stamp-like wordmark and a strict two-colour print system that survives cheap paper and busy supermarkets alike.',
+      'A neighbourhood roastery that wanted to feel less like a chain and more like a favourite aunt. We built the identity around a single drawn wordmark and a disciplined two-colour print system that still reads on a kraft bag, a window vinyl and a loyalty card alike.',
     body: [
       {
         heading: 'The mark',
-        text: 'The wordmark is drawn in a modified grotesque, tightened until it hums. It locks into a rectangular stamp — the kind you would find on a coffee sack — which doubles as a label, a coaster and a rubber stamp for the shop counter.',
+        text: 'The wordmark is drawn in a sturdy grotesque, tightened until it sits like a stamp on the bag. It locks into a rectangular badge — the kind you would find pressed into a coffee sack — which doubles as a label, a coaster and a rubber stamp behind the counter.',
       },
       {
         heading: 'Print discipline',
-        text: 'Every bag is printed in two spot colours on unbleached kraft. Constraints did the designing: one typeface, one stamp, one grid. Variants come from roast level alone — light, medium, dark — each getting a different density of the dot pattern.',
+        text: 'Every pack is printed in two spot colours on unbleached kraft. Constraints did the designing: one typeface, one badge, one grid. Variants come from roast alone — light, medium, dark — each getting a different density of the dot pattern.',
       },
     ],
   },
   {
-    id: 'papier-monthly',
-    title: 'Papier Monthly',
-    client: 'Papier Publishing',
+    id: 'folio-magazine',
+    title: 'Folio Magazine',
+    client: 'Folio Media',
     category: 'Editorial',
     year: '2025',
     role: 'Art Direction, Layout',
@@ -45,26 +45,26 @@ export const works = [
     images: [
       'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815000/portfolio/portfolio/papier-monthly-1.jpg',
       'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815002/portfolio/portfolio/papier-monthly-2.jpg',
-      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815300/portfolio/portfolio/papier-monthly-3.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815004/portfolio/portfolio/papier-monthly-3.jpg',
     ],
     featured: true,
     overview:
-      'An independent magazine about paper, print and the people who still love both. Twelve issues, one unforgiving baseline grid, zero decorative flourishes. The design leans on hierarchy and rhythm — the way old annual reports used to before they became brochures.',
+      'An independent magazine about paper, print and the people who still love both. Twelve issues, one unforgiving baseline grid, zero decorative flourishes. The design leans on hierarchy and rhythm — the way good annual reports used to before they became brochures.',
     body: [
       {
         heading: 'A grid you can hear',
-        text: 'A 6-column grid on a 12pt baseline carries everything from full-bleed photography to footnote-sized marginalia. Readers noticed the issue felt "calmer" than the previous design — nothing moved, everything aligned.',
+        text: 'A 6-column grid on a 12pt baseline carries everything from full-bleed photography to footnote-sized marginalia. Readers said the issue felt "calmer" — nothing moved, everything aligned.',
       },
       {
         heading: 'Masthead',
-        text: 'The masthead sets in condensed caps, tracked out to exactly the width of the text block. Each issue swaps one glyph with a guest illustrator — a small tradition the readers now collect.',
+        text: 'The masthead sets in condensed caps, tracked out to exactly the width of the text block. Each issue swaps one letter with a guest illustrator — a small tradition the readers now collect.',
       },
     ],
   },
   {
-    id: 'stadt-theatre',
-    title: 'Stadt Theatre Season',
-    client: 'Stadt Theatre, Karachi',
+    id: 'traverse-theatre',
+    title: 'Traverse Theatre Season',
+    client: 'Traverse Theatre, Dublin',
     category: 'Poster',
     year: '2024',
     role: 'Poster Series',
@@ -90,9 +90,9 @@ export const works = [
     ],
   },
   {
-    id: 'nordwind-records',
-    title: 'Nordwind Records',
-    client: 'Nordwind Records, Berlin',
+    id: 'parallel-records',
+    title: 'Parallel Records',
+    client: 'Parallel Records, London',
     category: 'Packaging',
     year: '2024',
     role: 'Sleeve Design, Identity',
@@ -118,8 +118,8 @@ export const works = [
     ],
   },
   {
-    id: 'grotesk-foundry',
-    title: 'Grotesk Type Foundry',
+    id: 'halva-grotesk',
+    title: 'Halva Grotesk',
     client: 'Self-initiated',
     category: 'Typeface',
     year: '2023',
@@ -146,9 +146,9 @@ export const works = [
     ],
   },
   {
-    id: 'helsinki-school',
-    title: 'Paper School Exhibition',
-    client: 'Design Museum',
+    id: 'form-function',
+    title: 'Form / Function',
+    client: 'Design Museum, Helsinki',
     category: 'Exhibition',
     year: '2023',
     role: 'Exhibition Identity',

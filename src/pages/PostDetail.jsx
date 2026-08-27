@@ -13,7 +13,7 @@ export default function PostDetail() {
           404 — This page went to press without ink
         </p>
         <Link to="/blog" className="link-slide mt-4 inline-block font-mono text-[11px] tracking-[0.15em] uppercase hover:text-accent">
-          ← Back to journal
+          ← Back to blog
         </Link>
       </div>
     )
@@ -27,7 +27,7 @@ export default function PostDetail() {
         to="/blog"
         className="link-slide font-mono text-[11px] tracking-[0.15em] uppercase hover:text-accent"
       >
-        ← Journal
+         ← Blog
       </Link>
 
       <Reveal>

@@ -61,7 +61,7 @@ export default function Header() {
               Work
             </NavLink>
             <NavLink to="/blog" className={linkCls}>
-              Journal
+              Blog
             </NavLink>
             <a href="/#about" className="link-slide font-mono text-[11px] tracking-[0.15em] uppercase hover:text-accent">
               About
@@ -83,7 +83,7 @@ export default function Header() {
           Work
         </NavLink>
         <NavLink to="/blog" className={linkCls}>
-          Journal
+          Blog
         </NavLink>
         <a href="/#about" className="link-slide font-mono text-[11px] tracking-[0.15em] uppercase">
           About

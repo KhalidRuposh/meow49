@@ -9,7 +9,7 @@ export default function Blog() {
       <Reveal>
         <SectionHeading
           index="00"
-          title="Journal — All Entries"
+          title="Blog — All Entries"
           note={`${posts.length} notes on design`}
         />
       </Reveal>

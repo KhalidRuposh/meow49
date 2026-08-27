@@ -4,45 +4,45 @@
 
 export const posts = [
   {
-    slug: 'why-i-still-sketch-on-paper',
-    title: 'Why I still sketch on paper first',
+    slug: 'why-every-brand-needs-a-monogram',
+    title: 'Why every brand needs a monogram',
     date: '2026-07-14',
     category: 'Process',
     excerpt:
-      'The computer is where designs get finished. It is almost never where they get found.',
+      'A logo tells you the name. A monogram teaches you to recognise it at the size of a stamp.',
     body: [
-      'Every project here started the same way: a sheet of cheap paper and a pencil that has seen better decades. Not because paper is romantic — it is not, it smudges and it tears — but because it is slow in the right direction.',
-      'On paper, a bad idea takes thirty seconds to draw and two seconds to cross out. In layout software, a bad idea takes forty minutes to build, and by then you have invested enough effort to defend it in the meeting. The computer rewards finishing; paper rewards discarding. Design lives or dies on discarding.',
-      'So the rule in this studio is simple: no file gets opened until the sheet is full. Ten thumbnails, minimum, and at least three of them have to be deliberately ridiculous. The ridiculous ones are load-bearing. They mark the edges of the map, and somewhere near an edge is usually where the answer is hiding.',
-      'Then, and only then, the laptop comes out — and the work becomes craft. Grids, kerning, ink levels. But by that point the design already exists, folded up in the pocket of the sketch. The computer is just where it gets its suit pressed.',
+      'Clients almost always ask for "a logo." What they usually mean is a wordmark — the name set in a nice typeface. That is fine, and most of the time it is the right answer. But the moment a brand touches a sticker, a favicon, a spine or a social avatar, the wordmark falls over. At 16 pixels the name becomes noise.',
+      'A monogram is the antidote. Take the two or three letters that matter, draw them once, tightly, and you have a mark that survives being shrunk to the size of a fingernail. It is not decoration; it is a compression format for the identity.',
+      'So the rule in this studio is simple: design the wordmark, then design the monogram, then check that the monogram still reads when you hold it at arm’s length. If it does not, the identity is not finished — it is just typeset.',
+      'The nice part is that the monogram pays you back forever. It becomes the stamp on the bag, the dot before the bullet, the thing people recognise in their peripheral vision. A brand you can recognise without reading is a brand that has been designed, not merely set.',
     ],
   },
   {
-    slug: 'the-grid-is-not-a-cage',
-    title: 'The grid is not a cage',
+    slug: 'designing-for-ink-and-for-pixels',
+    title: 'Designing for ink and for pixels',
     date: '2026-05-02',
     category: 'Notes',
     excerpt:
-      'Müller-Brockmann did not give us the grid to make design safe. He gave it to us to make design brave.',
+      'The same layout printed on newsprint and rendered on a phone is two different jobs wearing one jacket.',
     body: [
-      'Somewhere along the way, the grid picked up a reputation for being the enemy of creativity — the thing accountants use when they pretend to be designers. This is exactly backwards, and it is worth saying so out loud.',
-      'A grid is a floor, not a ceiling. It holds you up so you can reach further. The Swiss masters were not timid people: they set headlines at 96pt next to footnotes at 6pt, ran photographs across six columns, and put red where red had no business being. They could be that bold precisely because everything underneath was nailed down.',
-      'Try the opposite. Open a blank canvas with no grid and try to be bold. What you get is arbitrariness — a thousand tiny decisions, each made in panic. Boldness requires confidence, and confidence requires a system you can trust.',
-      'So when a project feels timid, the answer is rarely "break the grid". The answer is usually: trust it more. Make the big thing bigger. Let the small thing nearly disappear. The grid will hold.',
+      'There is a comforting lie that a design is a design is a design. It is not. The poster that sings at A0 on a brick wall behaves like a stranger when it is squeezed into a 390-pixel column. Type that was brave in ink becomes timid on a screen, and colour that was honest in CMYK turns neon in RGB.',
+      'The trick is to stop treating the screen as a smaller page and start treating it as a different material. Ink has weight and tooth; pixels have glow and motion. A grid that holds a spread together will also hold a viewport together — but the rhythm has to be re-tuned, not just resized.',
+      'When a project lives in both worlds, I design the printed object first and the interface second, then meet in the middle. The print fixes the hierarchy; the screen fixes the behaviour. Skip either and you get work that looks like a screenshot of a poster, or a poster of a screenshot. Neither is designed.',
+      'So the question is never "does it look good?" but "does it look good in the material it will actually be seen in?" Ask that early and you save yourself a rebuild.',
     ],
   },
   {
-    slug: 'lessons-from-old-ticket-stubs',
-    title: 'Swiss design lessons from old ticket stubs',
+    slug: 'the-case-for-restraint',
+    title: 'The case for restraint in identity',
     date: '2026-02-20',
     category: 'Archive',
     excerpt:
-      'A tram ticket from 1961 does more with 6pt type than most of us do with a 27-inch monitor.',
+      'The strongest identities I have shipped were the ones where I took the most away.',
     body: [
-      'In a flea market box, six euros bought me forty tram tickets from early-1960s Europe. They are, by any fair measure, the best-designed things I own, and they were never designed to be looked at. They were designed to be read at a run, in bad light, by someone with one hand.',
-      'Look closely and everything is there: hierarchy reduced to essentials, a strict alignment, information grouped by what the passenger actually needs and in what order. Perforations double as dividers. Serial numbers are given the dignity of a headline. Nothing decorative survives — only structure, ink and paper.',
-      'The lesson is not "design small". The lesson is that constraints were never the obstacle. A tram ticket has maybe four square inches and two colours, and it achieves total clarity. I have a monitor with millions of pixels and I still catch myself hedging — extra options, fallback text, a grey that commits to nothing.',
-      'So the tickets stay pinned above the desk. Not as nostalgia. As a dare.',
+      'There is a moment in every identity project where the temptation is to add. One more colour, one more pattern, one more "just in case" variant for the tote bag. Each addition feels like care. In truth it is usually anxiety — a fear that the idea is too thin to stand alone.',
+      'It almost never is. A single confident mark, one typeface, one grid and a colour you actually believe in will out-perform a flexible system every time, because flexibility is where intentions go to die. The brand gets applied by someone tired, at 11pm, with three other jobs open.',
+      'Restraint is not minimalism for its own sake. It is designing for the worst-case application, not the hero shot. If the identity still reads as itself on a fax, a sticker and a badly lit Instagram story, then you have an identity. If it needs the nice photo to make sense, you have a mood board.',
+      'So I have learned to remove until it is uncomfortable, then remove once more. The work that comes back praised is never the busy one. It is the quiet one that finally had room to speak.',
     ],
   },
 ]

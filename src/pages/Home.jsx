@@ -159,7 +159,7 @@ export default function Home() {
                 Selected clients
               </h3>
               <ul className="mt-3">
-                {['Rilo Coffee', 'Papier Publishing', 'Stadt Theatre', 'Nordwind Records', 'Design Museum'].map(
+                {['Marrow Coffee', 'Folio Media', 'Traverse Theatre', 'Parallel Records', 'Design Museum'].map(
                   (c) => (
                     <li
                       key={c}
@@ -175,10 +175,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── 03 / Journal ─────────────────────────────────────── */}
+      {/* ── 03 / Blog ─────────────────────────────────────────── */}
       <section className="border-t-2 border-ink py-14">
         <Reveal>
-          <SectionHeading index="03" title="Journal" note="Notes on design" />
+          <SectionHeading index="03" title="Blog" note="Notes on design" />
         </Reveal>
         <div className="mt-6">
           {latest.map((p, i) => (
