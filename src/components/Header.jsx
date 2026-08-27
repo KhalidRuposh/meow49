@@ -51,7 +51,7 @@ export default function Header() {
             Khalid
           </span>
           <span className="font-mono text-[10px] text-smoke">
-            / Graphic&nbsp;Designer
+            / Creative&nbsp;Designer
           </span>
         </Link>
 

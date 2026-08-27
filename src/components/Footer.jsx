@@ -11,10 +11,10 @@ export default function Footer() {
           Got a project? — 04
         </p>
         <a
-          href="mailto:hello@khalid.design"
+          href="mailto:hello@khalidsr.website"
           className="link-slide mt-3 inline-block text-4xl font-black tracking-tight uppercase break-all hover:text-accent sm:text-6xl"
         >
-          hello@khalid.design
+          hello@khalidsr.website
         </a>
 
         <div className="mt-14 flex flex-wrap items-end justify-between gap-6 border-t border-ink pt-6">
