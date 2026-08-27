@@ -15,9 +15,9 @@ export const works = [
     deliverables: 'Logo, Packaging, Signage, Stationery',
     figure: 0,
     images: [
-      '/images/rilo-coffee-1.jpg',
-      '/images/rilo-coffee-2.jpg',
-      '/images/rilo-coffee-3.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815006/portfolio/portfolio/rilo-coffee-1.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815008/portfolio/portfolio/rilo-coffee-2.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815010/portfolio/portfolio/rilo-coffee-3.jpg',
     ],
     featured: true,
     overview:
@@ -43,9 +43,9 @@ export const works = [
     deliverables: 'Masthead, Grid System, 12 Issues',
     figure: 1,
     images: [
-      '/images/papier-monthly-1.jpg',
-      '/images/papier-monthly-2.jpg',
-      '/images/papier-monthly-3.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815000/portfolio/portfolio/papier-monthly-1.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815002/portfolio/portfolio/papier-monthly-2.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815300/portfolio/portfolio/papier-monthly-3.jpg',
     ],
     featured: true,
     overview:
@@ -71,9 +71,9 @@ export const works = [
     deliverables: '18 Posters, Wayfinding',
     figure: 2,
     images: [
-      '/images/stadt-theatre-1.jpg',
-      '/images/stadt-theatre-2.jpg',
-      '/images/stadt-theatre-3.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815292/portfolio/portfolio/stadt-theatre-1.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815013/portfolio/portfolio/stadt-theatre-2.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815336/portfolio/portfolio/stadt-theatre-3.jpg',
     ],
     featured: true,
     overview:
@@ -99,9 +99,9 @@ export const works = [
     deliverables: '12" Sleeves, Labels, Catalogue',
     figure: 3,
     images: [
-      '/images/nordwind-records-1.jpg',
-      '/images/nordwind-records-2.jpg',
-      '/images/nordwind-records-3.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787815304/portfolio/portfolio/nordwind-records-1.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787814996/portfolio/portfolio/nordwind-records-2.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787814998/portfolio/portfolio/nordwind-records-3.jpg',
     ],
     featured: true,
     overview:
@@ -127,9 +127,9 @@ export const works = [
     deliverables: 'Typeface (8 styles), Specimen Site',
     figure: 4,
     images: [
-      '/images/grotesk-foundry-1.jpg',
-      '/images/grotesk-foundry-2.jpg',
-      '/images/grotesk-foundry-3.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787814981/portfolio/portfolio/grotesk-foundry-1.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787814983/portfolio/portfolio/grotesk-foundry-2.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787814985/portfolio/portfolio/grotesk-foundry-3.jpg',
     ],
     featured: false,
     overview:
@@ -155,9 +155,9 @@ export const works = [
     deliverables: 'Wayfinding, Catalogue, Merch',
     figure: 5,
     images: [
-      '/images/helsinki-school-1.jpg',
-      '/images/helsinki-school-2.jpg',
-      '/images/helsinki-school-3.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787814988/portfolio/portfolio/helsinki-school-1.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787814990/portfolio/portfolio/helsinki-school-2.jpg',
+      'https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787814991/portfolio/portfolio/helsinki-school-3.jpg',
     ],
     featured: false,
     overview:

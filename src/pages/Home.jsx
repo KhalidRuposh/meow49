@@ -109,7 +109,7 @@ export default function Home() {
         <div className="mt-8 grid gap-10 md:grid-cols-[1.2fr_1fr]">
           <Reveal>
             <div className="hidden md:block">
-              <Figure variant={2} src="/images/about-portrait.jpg" label="The designer, fig. 01" className="max-w-sm" />
+              <Figure variant={2} src="https://res.cloudinary.com/dvt5nm1vy/image/upload/v1787814979/portfolio/portfolio/about-portrait.jpg" label="The designer, fig. 01" className="max-w-sm" />
             </div>
             <p className="mt-0 max-w-xl leading-relaxed md:mt-8">
               Seven years of making things that get printed, stuck, stamped and
